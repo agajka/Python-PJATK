@@ -19,7 +19,6 @@ print("Rekord świata na 100m to {:.2f} ustanowił go {}".format(9.58, 'Usain Bo
 print("Kiedy się urodziłes?")
 print("Rekord świata na 100m padł {} i wynosi poniżej {:.1f} sekund - wow!".format(input(), 9.58))
 
-"""
 
 szer = 42
 print("-" * szer)
@@ -30,3 +29,10 @@ print("| {:6.3f} | {:16s} | {:10s} |".format(9.69, "Tyson Gay", "20.09.2009"))
 print("| {:6.3f} | {:16s} | {:10s} |".format(9.69, "Yohan Blake", "23.09.2012"))
 print("| {:6.3f} | {:16s} | {:10s} |".format(9.745, "Asafa Powell", "2.09.2008"))
 print("-" * szer)
+
+"""
+
+waluta = "dolar"
+us = 1
+pln = 4.08234915
+print("Aktualnie {:d} {} kosztuje {:.2f} zł".format(us, waluta, pln))
